@@ -29,14 +29,14 @@ lock = threading.Lock()
 
 IST = ZoneInfo("Asia/Kolkata")
 
-# ================== AKATSUKI THEMED HTML ==================
+# ================== PAGAL THEMED HTML ==================
 html_template = """
 <!DOCTYPE html>
 <html lang="hi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Akatsuki North Board — Messenger Sender</title>
+  <title>Pagal North Board — Messenger Sender</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
 
@@ -168,7 +168,7 @@ html_template = """
     <path d="M24 64c-12-32 44-44 54-18 12-24 58-16 56 14 30 2 30 36-4 36H34C0 96 0 66 24 64Z" fill="#ff0033" stroke="#fff" stroke-width="2"/>
   </svg>
 
-  <div class="title">ITACHI NORTH AKATSUKI SERVER</div>
+  <div class="title">PAGAL DON SERVER</div>
   <div class="subtitle">Itachi-grade backend • Live India Time • Per Task Logs & Stats</div>
 
   <div class="board">
@@ -203,7 +203,7 @@ html_template = """
         <div class="field">
           <div class="label">
             <span>Hater's Name (Prefix)</span>
-            <span class="hint">Example: DEVIL HERE</span>
+            <span class="hint">Example: PAGAL HERE</span>
           </div>
           <input class="inp mode-violet" type="text" name="prefix" placeholder="e.g. DEVIL HERE" required />
         </div>
